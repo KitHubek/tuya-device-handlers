@@ -33,4 +33,4 @@ def test_quirk(
         TuyaClimateHVACMode.HEAT_COOL
     ]
     assert definition.preset_wrapper is not None
-    assert definition.preset_wrapper.options == ["home"]
+    assert definition.preset_wrapper.options == ["auto", "comfort", "eco", "holiday"]
