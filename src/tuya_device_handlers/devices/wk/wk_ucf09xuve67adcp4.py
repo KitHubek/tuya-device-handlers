@@ -14,7 +14,7 @@ from tuya_device_handlers.const import DPMode
         dpid=2,
         dpcode="mode",
         dpmode=DPMode.READ | DPMode.WRITE,
-        enum_range=["comfort", "holiday", "auto", "eco"],
+        enum_range=["auto", "comfort", "eco", "holiday"],
     )
     .register(TUYA_QUIRKS_REGISTRY)
 )
