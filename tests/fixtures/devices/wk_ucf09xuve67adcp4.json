@@ -1,19 +1,9 @@
   {
-    "endpoint": "https://apigw.tuyaeu.com",
-    "terminal_id": "1775511928180ndsaa3",
-    "mqtt_connected": true,
-    "disabled_by": null,
-    "disabled_polling": false,
     "name": "Pod\u0142og\u00f3wka \u0142azienka mokra",
     "category": "wk",
     "product_id": "ucf09xuve67adcp4",
     "product_name": "Smart Thermostat\uff08N\uff09",
     "online": true,
-    "sub": false,
-    "time_zone": "+01:00",
-    "active_time": "2026-02-04T23:10:56+00:00",
-    "create_time": "2026-02-04T23:10:56+00:00",
-    "update_time": "2026-02-04T23:10:56+00:00",
     "function": {
       "switch": {
         "type": "Boolean",
