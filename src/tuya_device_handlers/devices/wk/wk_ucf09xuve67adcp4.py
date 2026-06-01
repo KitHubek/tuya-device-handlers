@@ -1,6 +1,6 @@
-"""Quirk for R11 Smart Wifi Thermostat (product_id if6pqia2gbtvqa6l).
+"""Quirk for Smart Wifi Thermostat (product_id ucf09xuve67adcp4).
 
-DP 2 (``mode``) is missing the expected ``home`` value for the enum
+DP 2 (``mode``) is missing values: comfort, holiday, auto, eco
 """
 
 from tuya_device_handlers import TUYA_QUIRKS_REGISTRY
