@@ -359,8 +359,4 @@
     },
     "set_up": true,
     "support_local": true,
-    "quirk": "/config/tuya_quirks/wk_ucf09xuve67adcp4.py:11",
-    "warnings": [
-      "enum_out_range|mode|comfort"
-    ]
   }
