@@ -22,7 +22,7 @@ def test_quirk(
         TuyaClimateHVACMode.HEAT_COOL
     ]
     assert definition.preset_wrapper is not None
-    assert definition.preset_wrapper.options == []
+    assert definition.preset_wrapper.options == ["eco"]
 
     filled_quirks_registry.initialise_device_quirk(device)
 
@@ -33,4 +33,8 @@ def test_quirk(
         TuyaClimateHVACMode.HEAT_COOL
     ]
     assert definition.preset_wrapper is not None
-    assert definition.preset_wrapper.options == ["auto", "comfort", "eco", "holiday"]
+    assert definition.preset_wrapper.options == [
+        "comfort",
+        "eco",
+        "holiday",
+    ]
